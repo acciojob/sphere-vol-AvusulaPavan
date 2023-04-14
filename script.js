@@ -1,5 +1,10 @@
 function volume_sphere() {
     //Write your code here
+	const r=document.getElementById("radius").value;
+	const volume = (4/3) * Math.PI * Math.pow(r, 3);
+
+	document.getElementById("volume").value=volume;
+	
   
 } 
 
